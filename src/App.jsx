@@ -11,5 +11,5 @@ export default function App() {
 		}, 3000);
 	}, []);
 
-	return !loading ? <Splash /> : <Routers />;
+	return loading ? <Splash /> : <Routers />;
 }
